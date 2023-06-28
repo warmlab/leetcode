@@ -18,7 +18,7 @@ mod test_merge_sorted_array {
         let n: i32 = 1;
 
         s.merge(&mut nums1, m, &mut nums2, n);
-        println!("{:?}", nums1);
+        assert_eq!(nums1, vec![1]);
     }
 
     #[test]
@@ -30,7 +30,7 @@ mod test_merge_sorted_array {
         let n: i32 = 3;
 
         s.merge(&mut nums1, m, &mut nums2, n);
-        println!("{:?}", nums1);
+        assert_eq!(nums1, vec![1,2,2,3,5,6]);
     }
 
     #[test]
@@ -42,6 +42,6 @@ mod test_merge_sorted_array {
         let n: i32 = 1;
 
         s.merge(&mut nums1, m, &mut nums2, n);
-        println!("{:?}", nums1);
+        assert_eq!(nums2, vec![1]);
     }
 }
