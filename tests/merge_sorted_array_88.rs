@@ -11,7 +11,7 @@ mod test_merge_sorted_array {
 
     #[test]
     fn test_merge_1() {
-        let s: Solution = Solution{};
+        let s: Solution = Solution;
         let mut nums1: Vec<i32> = vec![0];
         let mut nums2: Vec<i32> = vec![1];
         let m: i32 = 0;
@@ -23,7 +23,7 @@ mod test_merge_sorted_array {
 
     #[test]
     fn test_merge_2() {
-        let s: Solution = Solution{};
+        let s: Solution = Solution;
         let mut nums1: Vec<i32> = vec![1,2,3,0,0,0];
         let mut nums2: Vec<i32> = vec![2,5,6];
         let m: i32 = 3;
@@ -35,7 +35,7 @@ mod test_merge_sorted_array {
 
     #[test]
     fn test_merge_3() {
-        let s: Solution = Solution{};
+        let s: Solution = Solution;
         let mut nums1: Vec<i32> = vec![];
         let mut nums2: Vec<i32> = vec![1];
         let m: i32 = 0;
